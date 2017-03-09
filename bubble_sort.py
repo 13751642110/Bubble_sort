@@ -8,7 +8,7 @@ length = 100
 list = []
 def random_list(start, stop, length):
     for i in range(length):
-        list.append(random.randint(start, stop))  #把生成的随机数出入到list
+        list.append(random.randint(start, stop))  #把生成的随机数插入到list
     return list
 
 print("随机生成的数组为：")
