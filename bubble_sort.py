@@ -13,7 +13,7 @@ def random_list(start, stop, length):
 
 print("随机生成的数组为：")
 print(random_list(start,stop,length))
-
+#冒泡排序
 for i in range(len(list) - 1):   #循环次数 n - 1 次
     for j in range(len(list) - i - 1):
         if list[j] > list[j + 1]:
@@ -22,3 +22,7 @@ for i in range(len(list) - 1):   #循环次数 n - 1 次
             list[j + 1] = tmp
 print("排序后的数组为：")
 print(list)
+
+
+#时间复杂度：O（n^2）
+#空间复杂度：O（1）
